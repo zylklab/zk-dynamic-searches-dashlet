@@ -1,0 +1,18 @@
+<config>	
+	<sorting>
+		<sort label="label.name">cm:name</sort>        
+                <sort label="label.title">cm:title</sort>
+                <sort label="label.description">cm:description</sort>
+                <sort label="label.created">cm:created</sort>
+                <sort label="label.creator">cm:creator</sort>
+                <sort label="label.modified">cm:modified</sort>
+                <sort label="label.modifier">cm:modifier</sort>
+                <sort label="label.size">cm:content.size</sort>
+                <sort label="label.mimetype">cm:content.mimetype</sort>
+	</sorting>
+	<types>
+		<type label="label.type.content">cm:content</type>
+		<type label="label.type.folder">cm:folder</type>
+                <type label="label.type.zpm">zpm:zpmDoc</type>
+	</types>
+</config>

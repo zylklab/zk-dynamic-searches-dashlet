@@ -1,0 +1,6 @@
+<webscript>
+  <shortname>config-dynamic-searches-post</shortname>
+  <description>Custom Search Dashlet Configuration Dialog</description>
+  <url>/modules/dynamic-searches/config/{componentId}</url>
+  <format default="json">argument</format>
+</webscript>

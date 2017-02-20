@@ -1,0 +1,5 @@
+<webscript>
+  <shortname>config-dynamic-searches</shortname>
+  <description>Custom Search Dashlet Configuration Dialog</description>
+  <url>/modules/dynamic-searches/config</url>
+</webscript>

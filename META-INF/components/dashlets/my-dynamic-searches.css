@@ -1,0 +1,77 @@
+/* Simple/Details View */
+
+.dashlet.my-dynamic-searches .scrollableList {
+	overflow-y:auto;
+	overflow-x:hidden;	
+}
+
+.my-dynamic-searches .simple-detailed span.first-child
+{
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   min-height: 16px;
+   padding: 0 2px;
+}
+
+.my-dynamic-searches .simple-detailed .yui-button
+{
+   margin-left: 0;
+   margin-right: 0;
+}
+
+.my-dynamic-searches .simple-detailed .simple-view span.first-child
+{
+   background-image: url(../documentlibrary/images/simple-view-off-16.png);
+}
+
+.my-dynamic-searches .simple-detailed .simple-view.yui-button-checked span.first-child
+{
+   background-image: url(../documentlibrary/images/simple-view-on-16.png);
+}
+
+.my-dynamic-searches .simple-detailed .detailed-view span.first-child
+{
+   background-image: url(../documentlibrary/images/detailed-view-off-16.png);
+}
+
+.my-dynamic-searches .simple-detailed .detailed-view.yui-button-checked span.first-child
+{
+   background-image: url(../documentlibrary/images/detailed-view-on-16.png);
+}
+
+.dashlet .titleBarActions div.titleBarActionIcon.fullscreen {
+	background-image: url(view-fullscreen-16.png);
+}
+
+
+/* zk */
+.my-dynamic-searches-configDialog fieldset>label{
+    color: black;
+}
+
+.my-dynamic-searches-configDialog fieldset{
+	border: 1px dotted #BAB9B9;
+    margin: 10px 20px;
+    padding: 10px;
+    color:gray;
+}
+
+.my-dynamic-searches-configDialog .note{
+	color: #808080;
+	font-size:0.8em;
+	font-style: italic;
+}
+
+/* override */
+.alfresco-share .yui-panel .bd div.yui-gd, .alfresco-share .yui-panel .bd div.yui-u, .alfresco-share .yui-panel .bd div.form-buttons, .alfresco-share .yui-panel .bd div.bdft {
+   /*padding: 0.3em 0.3em 0 0;*/
+}
+
+.my-dynamic-searches-configDialog .yui-button{
+	vertical-align:top;
+}
+
+.my-dynamic-searches-configDialog .yui-button button{
+   	line-height: 1.7;
+    min-height: 1.7em;
+}

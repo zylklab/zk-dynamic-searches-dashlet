@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.6
+Created-By: 1.8.0_121-b13 (Oracle Corporation)
+Built-By: Zylk
+Implementation-Version: -v1.0
+

@@ -1,0 +1,7 @@
+<webscript>
+  <shortname>Get Nodes</shortname>
+  <description>Get Nodes from custom query</description>
+  <url>/net/zylk/nodes</url>
+  <format default="json">argument</format>
+  <authentication>user</authentication> 
+</webscript>

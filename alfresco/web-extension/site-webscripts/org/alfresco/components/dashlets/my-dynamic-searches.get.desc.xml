@@ -1,0 +1,7 @@
+<webscript>
+   <shortname>Custom Search</shortname>
+   <description>Dashlet to show filtered results</description>
+   <family>dashlet</family>
+   <url>/components/dashlets/my-dynamic-searches</url>
+</webscript>
+ 

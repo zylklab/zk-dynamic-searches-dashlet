@@ -1,0 +1,7 @@
+<webscript>
+  <shortname>Get dynamic queries</shortname>
+  <description>Obtener el listado de queries dinamicas en el diccionario de datos</description>
+  <url>/net/zylk/dynamicQueries</url>
+  <format default="json">argument</format>
+  <authentication>user</authentication> 
+</webscript>

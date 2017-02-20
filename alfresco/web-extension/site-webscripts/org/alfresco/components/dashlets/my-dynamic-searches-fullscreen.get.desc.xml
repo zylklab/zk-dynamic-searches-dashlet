@@ -1,0 +1,5 @@
+<webscript>
+   <shortname>Custom Search Fullscreen</shortname>
+   <description>Dashlet to show filtered results in fullscreen view</description>   
+   <url>/components/dashlets/dynamic-searches-fullscreen</url>
+</webscript>

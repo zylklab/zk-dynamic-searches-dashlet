@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<page>
+	<title>Dynamic Searches Page</title>
+	<description>Dynamic Searches Page</description>
+	<template-instance>1-column</template-instance>
+	<authentication>user</authentication>
+	<components>
+
+		<!-- Title -->
+		<component>
+			<region-id>title</region-id>
+			<url>/components/title/simple-title</url>
+			<properties>
+				<title>{title}</title>
+			</properties>
+		</component>
+		<!-- Signable Docs -->
+		<component>
+			<region-id>column</region-id>
+			<url>/components/dashlets/dynamic-searches-fullscreen</url>
+			<properties>
+				<title>Resultados de mis Búsquedas Dinámicas</title>		
+				<filterPath>{filterPath}</filterPath>
+				<filterPathView>{filterPathView}</filterPathView>
+				<maxItems>{maxItems}</maxItems>
+				<simpleView>{simpleView}</simpleView>								
+				<regionId>{regionId}</regionId>				
+				<siteId>{siteId}</siteId>
+				<containerId>{containerId}</containerId>
+				<sort>{sort}</sort>
+				<sortOrder>{sortOrder}</sortOrder>
+				<filterTags>{filterTags}</filterTags>
+				<query>{query}</query>
+				<validQueryFilter>{validQueryFilter}</validQueryFilter>
+				<validSortFilter>{validSortFilter}</validSortFilter>
+				<rootNode>{rootNode}</rootNode>
+				<mimetype>{mimetype}</mimetype>		
+				<contentType>{contentType}</contentType>										
+			</properties>			
+		</component>
+	</components>
+
+</page>
