@@ -15,7 +15,7 @@ This dashlet allows to configure complex Alfresco querys and filters in user and
 
 You may also limit the number of results, and order them by typical metadata (i.e: cm:modified and ascending or descending).
 
-#### Screenshots
+#### Using
 
 You can use the dashlet in the user / site panels defining a custom search with the different filters. For example, some invoice scanned files are tagged with project and invoice in document library and you want to configure a dashlet for filtering project invoices in Site Demo. The result of the dashlet (in the detailed view) will be something like:
 
