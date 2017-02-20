@@ -15,12 +15,13 @@ This dashlet allows to configure complex Alfresco querys and filters in user and
 
 You may also limit the number of results, and order them by typical metadata (i.e: cm:modified and ascending or descending).
 
-#### Screenshots 
-For example, you want to configure a dashlet for filtering project invoices in Site Demo. Two png files were tagged with "project" and "invoice". Here the result in detailed view of the dashlet.
+#### Screenshots
+
+You can use the dashlet in the user / site panels defining a custom search with the different filters. For example, some invoice scanned files are tagged with project and you want to configure a dashlet for filtering project invoices in Site Demo. The result in the detailed view of the dashlet would be the following:
 
 ![Screenshot 1 - Dashlet view](screenshots/document-dashlet-view.png)
 
-The configuration options for this dashlet:
+And the corresponding configuration options for the dashlet:
 
 ![Screenshot 2 - Dashlet config](screenshots/document-dashlet-config.png)
 
@@ -63,11 +64,7 @@ You should see the generated jar inside target directory.
 
 ## Installation
 
-Install it, copying the corresponding jar into $TOMCAT/shared/lib and restart Alfresco service. 
-
-## Using
-
-You can use the dashlet in the user / site panels defining a custom search with the different filters.
+Install it, copying the corresponding jar into $TOMCAT/shared/lib and restart Alfresco service
 
 ## Extra configuration of the dashlet
 
