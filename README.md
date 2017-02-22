@@ -101,5 +101,5 @@ The dashlet should work in Alfresco 4.2 and above. It was used (tested) in:
 ## Authors
 
 - Patricia Yague
-- Irune Prado (@wideawakening)
-- Cesar Capillas (@cesarcapillas)
+- [Irune Prado](http://github.com/wideawakening)
+- [Cesar Capillas](http://github.com/CesarCapillas)
